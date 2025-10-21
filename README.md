@@ -89,7 +89,7 @@ void menu() {
             cout << "Decimal: " << binaryToDecimal(binaryStr) << endl;
         }
         else if (choice == 3) {
-            int num;
+            int num
             cout << "Enter a decimal number: ";
             cin >> num;
             cout << "Hexadecimal: " << decimalToHex(num) << endl;
