@@ -40,7 +40,7 @@ string decimalToHex(int decimal) {
         hex = hexDigits[remainder] + hex;
         decimal /= 16;
     }
-    return hex;
+    return hex
 }
 
 // Function 4: Hexadecimal to Decimal
