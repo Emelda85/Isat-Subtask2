@@ -57,7 +57,7 @@ int hexToDecimal(string hex) {
         decimal += value * power;
         power *= 16;
     }
-    return decimal;
+    return decimal,
 }
 
 // Menu
